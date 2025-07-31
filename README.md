@@ -2,7 +2,8 @@
 
 ## 🎯 Objetivo
 
-Criar uma aplicação web que simule um sistema de cadastro de produtos com autenticação e simulação de compra, como se fosse um mini e-commerce.
+Você foi contratado(a) para atuar na manutenção do backoffice da TopGain, empresa do mercado financeiro.
+A plataforma gerencia alunos e integra pagamentos via Pagar.me, com o portal do aluno terceirizado.
 
 O objetivo é avaliar:
 - Organização do código
@@ -17,6 +18,7 @@ O objetivo é avaliar:
 ### 1. Backend
 - Criar uma API RESTful com:
   - Login e autenticação com **JWT**
+  - Cadastro de alunos (nome, e-mail, CPF, curso comprado)
   - Endpoints para **CRUD de produtos**
   - Simulação de **pagamento via webhook** (pode ser um endpoint POST que simula uma notificação de sucesso)
 
@@ -30,8 +32,9 @@ O objetivo é avaliar:
 ### 2. Frontend
 - Criar uma aplicação usando **React ou Next.js**
 - Tela de login (com autenticação JWT)
-- Tela de cadastro e listagem de produtos
-- Tela de simulação de compra e status do pedido
+- Tela de cadastro e listagem de alunos
+- Filtros por curso ou status de pagamento
+- Tela de simulação de compra e recebimento de pagamento
 
 - Design:
   - Deve ser **responsivo (mobile-first)**, mas não precisa ser perfeito em UI
@@ -51,6 +54,9 @@ O objetivo é avaliar:
 - Docker (com docker-compose)
 - CI/CD simples (GitHub Actions, por exemplo)
 - Deploy funcional
+- Boa organização de rotas e separação de camadas
+- README claro com instruções
+
 
 ---
 
